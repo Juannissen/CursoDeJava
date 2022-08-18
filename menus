@@ -1,0 +1,73 @@
+import javax.swing.*;
+import java.util.Scanner;
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+/*
+	String nombre = JOptionPane.showInputDialog("Ingrese su nombre por favor");
+
+	int edad = Integer.parseInt(JOptionPane.showInputDialog("Introduce la edad"));
+
+	System.out.println(nombre + " tiene " + edad + " años ");
+        */
+/*
+    int Valor1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+    int Valor2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce otro valor"));
+
+    int Valor3 = Valor1 + Valor2;
+
+
+    JOptionPane.showMessageDialog(null,"Su resultado es" + ": " + Valor3);
+
+    */
+
+/*
+int edad = Integer.parseInt(JOptionPane.showInputDialog("Ingrese su edad"));
+if (edad >= 18) {
+    String carnet = JOptionPane.showInputDialog("¿Tiene Carnet?");
+    if (carnet.equals("si")) {
+        JOptionPane.showMessageDialog(null, "Puede comprar el auto :D");
+    } else {
+        JOptionPane.showMessageDialog(null, "No puede comprar el auto, no posee carnet :(");
+    }
+    } else {
+        JOptionPane.showMessageDialog(null, "No puede comprar el auto, por ser menor :(");
+    }
+*/
+/*
+        char stop = 'f';
+        int valor;
+        int V1, V2, TOTAL;
+        int VALORDEENTRADA = 0;
+        V1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        do {
+             V2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+             TOTAL = (V1 + V2);
+
+
+        } while (VALORDEENTRADA != stop);
+
+        System.out.println("asd" + TOTAL);
+
+        JOptionPane.showMessageDialog(null,"Su resultado es:"+ TOTAL);
+    }
+*/
+    /*
+        int V1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        int V2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        int V3 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        int V4 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        int V5 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+        int V6 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un valor"));
+
+        int[] numeros = new int[100];
+*/
+
+
+    }
+}
+
+
