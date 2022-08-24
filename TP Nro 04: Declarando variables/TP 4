@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Ingrese su nombre.");
+        String Nombre = s.nextLine();
+        System.out.println("Ingrese su edad.");
+        int Edad = s.nextInt();
+        System.out.println("Ingrese lo que le gustaría ganar por mes, y que sea con centavos.");
+        double Salario = s.nextDouble();
+        System.out.println("¿Posee usted un carnet?.\n * Ingrese (true) si posee un carnet.\n * Ingrese (false) si no posee un carnet.");
+        boolean Carnet = s.nextBoolean();
+        if (Carnet) {
+            System.out.println("* Su nombre es: " + Nombre);
+            System.out.println("* Su edad es: " + Edad);
+            System.out.println("* Su salario deseado es: " + Salario);
+            System.out.println("* Usted posee un Carnet valido");
+        } else if (Carnet) {
+            System.out.println("Usted no posee un carnet");
+        }
+
+    }
+}
