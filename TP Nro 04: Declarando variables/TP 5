@@ -6,6 +6,5 @@ public class Main {
 
         System.out.print("\n El resultado es :\n");
         System.out.print(Resultado);
-
     }
 }
